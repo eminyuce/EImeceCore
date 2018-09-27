@@ -2980,7 +2980,6 @@
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "EFGenericRepository": "1.0.0",
-          "EImeceCore.Models": "1.0.0",
           "Microsoft.AspNetCore.Mvc": "2.1.0",
           "Microsoft.EntityFrameworkCore": "2.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.3",
@@ -8925,6 +8924,7 @@
     ".NETCoreApp,Version=v2.1": [
       "DbInfrastructure >= 1.0.0",
       "EFGenericRepository >= 1.0.0",
+      "EImeceCore.Models >= 1.0.0",
       "HelpersProject >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
@@ -8967,6 +8967,9 @@
             },
             "C:\\Users\\Yuce\\Documents\\GitHub\\DotNetCoreCodeGenerator\\HelpersProject\\HelpersProject.csproj": {
               "projectPath": "C:\\Users\\Yuce\\Documents\\GitHub\\DotNetCoreCodeGenerator\\HelpersProject\\HelpersProject.csproj"
+            },
+            "C:\\Users\\Yuce\\Documents\\GitHub\\EImeceCore\\EImeceCore.Models\\EImeceCore.Models.csproj": {
+              "projectPath": "C:\\Users\\Yuce\\Documents\\GitHub\\EImeceCore\\EImeceCore.Models\\EImeceCore.Models.csproj"
             }
           }
         }

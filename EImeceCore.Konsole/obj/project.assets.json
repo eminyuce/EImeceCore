@@ -2980,7 +2980,6 @@
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "EFGenericRepository": "1.0.0",
-          "EImeceCore.Models": "1.0.0",
           "Microsoft.AspNetCore.Mvc": "2.1.0",
           "Microsoft.EntityFrameworkCore": "2.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.3",
@@ -3006,19 +3005,6 @@
         },
         "runtime": {
           "bin/placeholder/EFGenericRepository.dll": {}
-        }
-      },
-      "EImeceCore.Models/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "HelpersProject": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/EImeceCore.Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/EImeceCore.Models.dll": {}
         }
       },
       "HelpersProject/1.0.0": {
@@ -8909,11 +8895,6 @@
       "type": "project",
       "path": "../../DotNetCoreCodeGenerator/EFGenericRepository/EFGenericRepository.csproj",
       "msbuildProject": "../../DotNetCoreCodeGenerator/EFGenericRepository/EFGenericRepository.csproj"
-    },
-    "EImeceCore.Models/1.0.0": {
-      "type": "project",
-      "path": "../EImeceCore.Models/EImeceCore.Models.csproj",
-      "msbuildProject": "../EImeceCore.Models/EImeceCore.Models.csproj"
     },
     "HelpersProject/1.0.0": {
       "type": "project",

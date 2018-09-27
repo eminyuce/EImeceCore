@@ -1,0 +1,12 @@
+C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Models\bin\Release\netcoreapp2.1\EImeceCore.Models.deps.json
+C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Models\bin\Release\netcoreapp2.1\EImeceCore.Models.dll
+C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Models\bin\Release\netcoreapp2.1\EImeceCore.Models.pdb
+C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Models\bin\Release\netcoreapp2.1\HelpersProject.dll
+C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Models\bin\Release\netcoreapp2.1\HelpersProject.pdb
+C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Models\obj\Release\netcoreapp2.1\EImeceCore.Models.csprojAssemblyReference.cache
+C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Models\obj\Release\netcoreapp2.1\EImeceCore.Models.csproj.CoreCompileInputs.cache
+C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Models\obj\Release\netcoreapp2.1\EImeceCore.Models.AssemblyInfoInputs.cache
+C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Models\obj\Release\netcoreapp2.1\EImeceCore.Models.AssemblyInfo.cs
+C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Models\obj\Release\netcoreapp2.1\EImeceCore.Models.csproj.CopyComplete
+C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Models\obj\Release\netcoreapp2.1\EImeceCore.Models.dll
+C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Models\obj\Release\netcoreapp2.1\EImeceCore.Models.pdb
