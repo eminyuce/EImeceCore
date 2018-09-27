@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DotNetCoreCodeGenerator\DbInfrastructure\DbInfrastructure.csproj" />
+    <ProjectReference Include="..\..\DotNetCoreCodeGenerator\EFGenericRepository\EFGenericRepository.csproj" />
+    <ProjectReference Include="..\..\DotNetCoreCodeGenerator\HelpersProject\HelpersProject.csproj" />
+  </ItemGroup>
+
+</Project>

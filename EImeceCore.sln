@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EImeceCore.XUnitTesting", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EImeceCore.Konsole", "EImeceCore.Konsole\EImeceCore.Konsole.csproj", "{F2CC347A-DFA0-48CE-8826-48AF0D83123F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EImeceCore.Models", "EImeceCore.Models\EImeceCore.Models.csproj", "{42BB225F-CF31-400D-8C6E-F78638E33F3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EImeceCore.Domain", "EImeceCore.Domain\EImeceCore.Domain.csproj", "{17C2592C-A2F8-4C51-BB72-FD9D0F3295C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{F2CC347A-DFA0-48CE-8826-48AF0D83123F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2CC347A-DFA0-48CE-8826-48AF0D83123F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2CC347A-DFA0-48CE-8826-48AF0D83123F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42BB225F-CF31-400D-8C6E-F78638E33F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42BB225F-CF31-400D-8C6E-F78638E33F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42BB225F-CF31-400D-8C6E-F78638E33F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42BB225F-CF31-400D-8C6E-F78638E33F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C2592C-A2F8-4C51-BB72-FD9D0F3295C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C2592C-A2F8-4C51-BB72-FD9D0F3295C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C2592C-A2F8-4C51-BB72-FD9D0F3295C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C2592C-A2F8-4C51-BB72-FD9D0F3295C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
