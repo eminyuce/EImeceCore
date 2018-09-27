@@ -644,7 +644,10 @@
           "DbInfrastructure": "1.0.0",
           "EFGenericRepository": "1.0.0",
           "EImeceCore.Models": "1.0.0",
-          "HelpersProject": "1.0.0"
+          "HelpersProject": "1.0.0",
+          "Microsoft.AspNetCore.Identity": "2.1.1",
+          "Microsoft.AspNetCore.Identity.UI": "2.1.1",
+          "Microsoft.Extensions.Logging": "2.1.1"
         },
         "runtime": {
           "EImeceCore.Domain.dll": {}

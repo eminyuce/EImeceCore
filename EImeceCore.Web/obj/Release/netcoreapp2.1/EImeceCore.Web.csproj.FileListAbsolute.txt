@@ -43,3 +43,7 @@ C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Web\obj\Release\netcoreapp2
 C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Web\obj\Release\netcoreapp2.1\EImeceCore.Web.csproj.CopyComplete
 C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Web\obj\Release\netcoreapp2.1\EImeceCore.Web.dll
 C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Web\obj\Release\netcoreapp2.1\EImeceCore.Web.pdb
+C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Web\obj\Release\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.g.cshtml.cs
+C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Web\obj\Release\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Web\obj\Release\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Yuce\Documents\GitHub\EImeceCore\EImeceCore.Web\obj\Release\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs

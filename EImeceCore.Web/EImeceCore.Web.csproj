@@ -16,4 +16,8 @@
     <ProjectReference Include="..\EImeceCore.Models\EImeceCore.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Identity\Services\" />
+  </ItemGroup>
+
 </Project>

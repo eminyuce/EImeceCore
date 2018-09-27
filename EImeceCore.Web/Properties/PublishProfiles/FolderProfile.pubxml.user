@@ -8,4 +8,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_PublishTargetUrl>D:\ProjectEY\www-Emin.FastCraft.com</_PublishTargetUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>09/27/2018 11:47:29</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>09/27/2018 14:03:21</publishTime>
+    </File>
+  </ItemGroup>
 </Project>

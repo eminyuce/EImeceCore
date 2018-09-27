@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\DotNetCoreCodeGenerator\DbInfrastructure\DbInfrastructure.csproj" />
     <ProjectReference Include="..\..\DotNetCoreCodeGenerator\EFGenericRepository\EFGenericRepository.csproj" />
     <ProjectReference Include="..\..\DotNetCoreCodeGenerator\HelpersProject\HelpersProject.csproj" />
