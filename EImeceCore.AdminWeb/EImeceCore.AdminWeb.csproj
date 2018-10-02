@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <UserSecretsId>aspnet-EImeceCore.Web-E598506D-915C-4DBA-B71B-A5A88C84DDAD</UserSecretsId>
+    <UserSecretsId>aspnet-EImeceCore.AdminWeb-FD55D1E0-1FAC-4CDA-9797-F4C163819D01</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,10 +15,6 @@
     <ProjectReference Include="..\..\DotNetCoreCodeGenerator\HelpersProject\HelpersProject.csproj" />
     <ProjectReference Include="..\EImeceCore.Domain\EImeceCore.Domain.csproj" />
     <ProjectReference Include="..\EImeceCore.Models\EImeceCore.Models.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Areas\Identity\Services\" />
   </ItemGroup>
 
 </Project>
