@@ -11,7 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DotNetCoreCodeGenerator\DbInfrastructure\DbInfrastructure.csproj" />
     <ProjectReference Include="..\..\DotNetCoreCodeGenerator\HelpersProject\HelpersProject.csproj" />
     <ProjectReference Include="..\EImeceCore.Domain\EImeceCore.Domain.csproj" />
     <ProjectReference Include="..\EImeceCore.Models\EImeceCore.Models.csproj" />

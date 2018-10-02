@@ -13,8 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DotNetCoreCodeGenerator\DbInfrastructure\DbInfrastructure.csproj" />
-    <ProjectReference Include="..\..\DotNetCoreCodeGenerator\EFGenericRepository\EFGenericRepository.csproj" />
     <ProjectReference Include="..\..\DotNetCoreCodeGenerator\HelpersProject\HelpersProject.csproj" />
   </ItemGroup>
 

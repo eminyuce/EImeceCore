@@ -14,6 +14,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using EImeceCore.Domain.Services;
+using DbInfrastructure.Services;
+using DbInfrastructure.Services.IServices;
+using EImeceCore.Domain;
+using DbInfrastructure.EFContext;
 
 namespace EImeceCore.Web
 {
@@ -37,7 +41,10 @@ namespace EImeceCore.Web
             });
             services.AddLogging();
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddTransient<IProjectDbContext>(s => new ProjectDbContext(Configuration.GetConnectionString("MySqlDefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddTransient<IProductService, ProductService>();
+            services.AddSingleton<MyAppSetttings>();
 
             services.AddTransient<IEmailSender, EmailSender>(i =>
               new EmailSender(

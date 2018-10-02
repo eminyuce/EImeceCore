@@ -1,0 +1,17 @@
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository.Console\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository.Console\bin\Debug\netcoreapp2.1\EFGenericRepository.Console.deps.json
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository.Console\bin\Debug\netcoreapp2.1\EFGenericRepository.Console.runtimeconfig.json
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository.Console\bin\Debug\netcoreapp2.1\EFGenericRepository.Console.runtimeconfig.dev.json
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository.Console\bin\Debug\netcoreapp2.1\EFGenericRepository.Console.dll
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository.Console\bin\Debug\netcoreapp2.1\EFGenericRepository.Console.pdb
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository.Console\bin\Debug\netcoreapp2.1\DbInfrastructure.dll
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository.Console\bin\Debug\netcoreapp2.1\EFGenericRepository.dll
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository.Console\bin\Debug\netcoreapp2.1\DbInfrastructure.pdb
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository.Console\bin\Debug\netcoreapp2.1\EFGenericRepository.pdb
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository.Console\obj\Debug\netcoreapp2.1\EFGenericRepository.Console.csprojAssemblyReference.cache
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository.Console\obj\Debug\netcoreapp2.1\EFGenericRepository.Console.csproj.CoreCompileInputs.cache
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository.Console\obj\Debug\netcoreapp2.1\EFGenericRepository.Console.AssemblyInfoInputs.cache
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository.Console\obj\Debug\netcoreapp2.1\EFGenericRepository.Console.AssemblyInfo.cs
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository.Console\obj\Debug\netcoreapp2.1\EFGenericRepository.Console.csproj.CopyComplete
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository.Console\obj\Debug\netcoreapp2.1\EFGenericRepository.Console.dll
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository.Console\obj\Debug\netcoreapp2.1\EFGenericRepository.Console.pdb

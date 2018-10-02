@@ -1,0 +1,9 @@
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository\bin\Release\netcoreapp2.0\EFGenericRepository.deps.json
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository\bin\Release\netcoreapp2.0\EFGenericRepository.dll
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository\bin\Release\netcoreapp2.0\EFGenericRepository.pdb
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository\obj\Release\netcoreapp2.0\EFGenericRepository.csprojAssemblyReference.cache
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository\obj\Release\netcoreapp2.0\EFGenericRepository.csproj.CoreCompileInputs.cache
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository\obj\Release\netcoreapp2.0\EFGenericRepository.AssemblyInfoInputs.cache
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository\obj\Release\netcoreapp2.0\EFGenericRepository.AssemblyInfo.cs
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository\obj\Release\netcoreapp2.0\EFGenericRepository.dll
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\EFGenericRepository\obj\Release\netcoreapp2.0\EFGenericRepository.pdb

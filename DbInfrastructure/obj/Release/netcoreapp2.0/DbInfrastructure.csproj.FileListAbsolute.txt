@@ -1,0 +1,12 @@
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\DbInfrastructure\bin\Release\netcoreapp2.0\DbInfrastructure.deps.json
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\DbInfrastructure\bin\Release\netcoreapp2.0\DbInfrastructure.dll
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\DbInfrastructure\bin\Release\netcoreapp2.0\DbInfrastructure.pdb
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\DbInfrastructure\bin\Release\netcoreapp2.0\EFGenericRepository.dll
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\DbInfrastructure\bin\Release\netcoreapp2.0\EFGenericRepository.pdb
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\DbInfrastructure\obj\Release\netcoreapp2.0\DbInfrastructure.csprojAssemblyReference.cache
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\DbInfrastructure\obj\Release\netcoreapp2.0\DbInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\DbInfrastructure\obj\Release\netcoreapp2.0\DbInfrastructure.AssemblyInfoInputs.cache
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\DbInfrastructure\obj\Release\netcoreapp2.0\DbInfrastructure.AssemblyInfo.cs
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\DbInfrastructure\obj\Release\netcoreapp2.0\DbInfrastructure.csproj.CopyComplete
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\DbInfrastructure\obj\Release\netcoreapp2.0\DbInfrastructure.dll
+C:\Users\Yuce\Documents\GitHub\DotNetCoreCodeGenerator\DbInfrastructure\obj\Release\netcoreapp2.0\DbInfrastructure.pdb
