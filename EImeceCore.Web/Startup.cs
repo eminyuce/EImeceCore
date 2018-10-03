@@ -18,6 +18,8 @@ using DbInfrastructure.Services;
 using DbInfrastructure.Services.IServices;
 using EImeceCore.Domain;
 using DbInfrastructure.EFContext;
+using DbInfrastructure.Repositories.IRepositories;
+using System.Reflection;
 
 namespace EImeceCore.Web
 {
@@ -41,9 +43,10 @@ namespace EImeceCore.Web
             });
             services.AddLogging();
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddTransient<IProjectDbContext>(s => new ProjectDbContext(Configuration.GetConnectionString("MySqlDefaultConnection")));
+            services.AddTransient<IProjectDbContext>(s => new ProjectDbContext(Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddTransient<IProductService, ProductService>();
+            AddTransientByReflection(services, typeof(IBaseService<>), "Service");
+            AddTransientByReflection(services, typeof(IBaseRepository<>), "Repository");
             services.AddSingleton<MyAppSetttings>();
 
             services.AddTransient<IEmailSender, EmailSender>(i =>
@@ -57,6 +60,25 @@ namespace EImeceCore.Web
           );
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+        }
+
+        private static void AddTransientByReflection(IServiceCollection services, Type typeOfInterface, string typeofText)
+        {
+            var baseServiceTypes = Assembly.GetAssembly(typeOfInterface)
+               .GetTypes().Where(t => t.Name.EndsWith(typeofText)).ToList();
+
+            foreach (var type in baseServiceTypes)
+            {
+                string baseClass = "I" + type.Name;
+                if (!baseClass.StartsWith("IBase"))
+                {
+                    var interfaceType = type.GetInterface(baseClass);
+                    if (interfaceType != null)
+                    {
+                        services.AddTransient(interfaceType, type);
+                    }
+                }
+            }
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

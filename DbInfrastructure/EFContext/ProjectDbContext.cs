@@ -21,7 +21,7 @@ namespace DbInfrastructure.EFContext
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseMySql(_connectionString);
+            optionsBuilder.UseSqlServer(_connectionString);
         }
 
         public ProjectDbContext():base()

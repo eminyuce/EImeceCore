@@ -1,0 +1,125 @@
+﻿@model DbInfrastructure.Entities.Product
+
+
+<dt>
+    @Html.DisplayNameFor(model => model.Id)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.Id)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.StoreId)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.StoreId)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.ProductCategoryId)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.ProductCategoryId)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.BrandId)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.BrandId)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.RetailerId)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.RetailerId)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.ProductCode)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.ProductCode)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.Name)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.Name)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.Description)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.Description)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.Type)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.Type)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.MainPage)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.MainPage)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.State)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.State)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.Ordering)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.Ordering)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.CreatedDate)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.CreatedDate)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.ImageState)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.ImageState)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.UpdatedDate)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.UpdatedDate)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.Price)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.Price)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.Discount)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.Discount)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.UnitsInStock)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.UnitsInStock)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.TotalRating)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.TotalRating)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.VideoUrl)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.VideoUrl)
+</dd>
+@Html.ActionLink("Edit", "Edit", "Products", new { id = Model.Id }, null) |
+<a asp-action="Index" asp-controller="products">Back to List</a>
