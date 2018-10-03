@@ -2736,7 +2736,7 @@
           }
         }
       },
-      "MySqlConnector/0.44.1": {
+      "MySqlConnector/0.45.1": {
         "type": "package",
         "compile": {
           "lib/netcoreapp2.1/MySqlConnector.dll": {}
@@ -4711,6 +4711,7 @@
           "Microsoft.AspNetCore.Mvc": "2.1.0",
           "Microsoft.EntityFrameworkCore": "2.1.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.4",
+          "MySqlConnector": "0.45.1",
           "Pomelo.EntityFrameworkCore.MySql": "2.1.2"
         },
         "compile": {
@@ -7504,10 +7505,10 @@
         "version.txt"
       ]
     },
-    "MySqlConnector/0.44.1": {
-      "sha512": "AdVMqv8KVA878+AF8EkXqjac3ih1tsOzBchYHasoW69vn2Ldez0ucbzB43dmLVkmTa1sQtLtoDbk3n9S34tZyg==",
+    "MySqlConnector/0.45.1": {
+      "sha512": "x+k3MJREEsIO2XXXcHaURlmDj0aIaM84I/p9cb1Tuz1bPoKnfkAH6rU4K2+onR/s/R/vBJgZhCN5kdF13IlANA==",
       "type": "package",
-      "path": "mysqlconnector/0.44.1",
+      "path": "mysqlconnector/0.45.1",
       "files": [
         ".signature.p7s",
         "lib/net45/MySqlConnector.dll",
@@ -7515,7 +7516,7 @@
         "lib/netcoreapp2.1/MySqlConnector.dll",
         "lib/netstandard1.3/MySqlConnector.dll",
         "lib/netstandard2.0/MySqlConnector.dll",
-        "mysqlconnector.0.44.1.nupkg.sha512",
+        "mysqlconnector.0.45.1.nupkg.sha512",
         "mysqlconnector.nuspec"
       ]
     },

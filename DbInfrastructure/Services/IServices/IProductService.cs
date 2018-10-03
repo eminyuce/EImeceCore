@@ -7,7 +7,7 @@ using DbInfrastructure.Entities;
 
 namespace DbInfrastructure.Services.IServices
 {
-    public interface IProductService : IBaseService<Product>
+    public interface IProductService : IBaseService<Product>, IDisposable
     {
 
     }

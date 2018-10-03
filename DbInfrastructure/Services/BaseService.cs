@@ -8,16 +8,13 @@ using System.Threading.Tasks;
 
 namespace DbInfrastructure.Services.IServices
 {
-    public abstract class BaseService<T> : IBaseService<T> where T : class, IEntity<int>
+    public abstract class BaseService<T> : IDisposable, IBaseService<T> where T : class, IEntity<int>
     {
         private IBaseRepository<T> baseRepository { get; set; }
 
         public BaseService(IBaseRepository<T> baseRepository)
         {
             this.baseRepository = baseRepository;
-
-
-
         }
 
         public virtual List<T> LoadEntites(Expression<Func<T, bool>> whereLambda)
@@ -69,6 +66,10 @@ namespace DbInfrastructure.Services.IServices
         public virtual async Task<int> DeleteEntityAsync(T entity)
         {
             return await baseRepository.DeleteAsync(entity);
+        }
+        public void Dispose()
+        {
+            baseRepository.Dispose();
         }
     }
 }

@@ -40,7 +40,7 @@ namespace Infrastructure
             var factory = serviceProvider.GetService<ILoggerFactory>();
 
 
-            string MySqlDefaultConnection = configuration.GetConnectionString("MySqlDefaultConnection");
+            string MySqlDefaultConnection = configuration.GetConnectionString("DefaultConnection");
             string connectionString = configuration.GetConnectionString("DefaultConnection");
             System.Console.WriteLine(connectionString);
             System.Console.WriteLine(MySqlDefaultConnection);
@@ -49,7 +49,7 @@ namespace Infrastructure
             //IProductRepository productRepository = new ProductRepository(db, factory.CreateLogger<ProductRepository>());
             var productService = new ProductService(new ProductRepository(db, factory), factory);
 
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 5; i++)
             {
                 var item = new Product();
                 item.StoreId = 1;

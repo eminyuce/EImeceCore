@@ -26,6 +26,7 @@ namespace DbInfrastructure.EFContext
 
         public ProjectDbContext():base()
         {
+
         }
 
 

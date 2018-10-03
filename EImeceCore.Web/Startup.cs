@@ -42,8 +42,11 @@ namespace EImeceCore.Web
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
             services.AddLogging();
+
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<ProjectDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IProjectDbContext>(s => new ProjectDbContext(Configuration.GetConnectionString("DefaultConnection")));
+
             services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<ApplicationDbContext>();
             AddTransientByReflection(services, typeof(IBaseService<>), "Service");
             AddTransientByReflection(services, typeof(IBaseRepository<>), "Repository");

@@ -11,8 +11,7 @@ using System.Threading.Tasks;
 
 namespace DbInfrastructure.Repositories
 {
-    public abstract class BaseRepository<T> : EntityRepository<T, int>, IBaseRepository<T> 
-      where T : class, IEntity<int>
+    public abstract class BaseRepository<T> : EntityRepository<T, int>, IBaseRepository<T>  where T : class, IEntity<int>
     {
 
         public IProjectDbContext DbContext;
@@ -26,10 +25,9 @@ namespace DbInfrastructure.Repositories
 
         }
 
- 
-     
+       
 
-     
- 
+
+
     }
 }
