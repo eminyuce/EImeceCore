@@ -9,15 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EImeceCore.UnitTesting", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EImeceCore.XUnitTesting", "EImeceCore.XUnitTesting\EImeceCore.XUnitTesting.csproj", "{0869199A-E877-4988-A74F-EDDE5791CCD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EImeceCore.Konsole", "EImeceCore.Konsole\EImeceCore.Konsole.csproj", "{F2CC347A-DFA0-48CE-8826-48AF0D83123F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EImeceCore.Models", "EImeceCore.Models\EImeceCore.Models.csproj", "{42BB225F-CF31-400D-8C6E-F78638E33F3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EImeceCore.Models", "EImeceCore.Models\EImeceCore.Models.csproj", "{42BB225F-CF31-400D-8C6E-F78638E33F3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EImeceCore.Domain", "EImeceCore.Domain\EImeceCore.Domain.csproj", "{17C2592C-A2F8-4C51-BB72-FD9D0F3295C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EImeceCore.Domain", "EImeceCore.Domain\EImeceCore.Domain.csproj", "{17C2592C-A2F8-4C51-BB72-FD9D0F3295C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EImeceCore.Web", "EImeceCore.Web\EImeceCore.Web.csproj", "{46D439F5-8FC8-4B76-8F65-BA32AE238B59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EImeceCore.Web", "EImeceCore.Web\EImeceCore.Web.csproj", "{46D439F5-8FC8-4B76-8F65-BA32AE238B59}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EImeceCore.AdminWeb", "EImeceCore.AdminWeb\EImeceCore.AdminWeb.csproj", "{8524483F-D06E-4504-A867-C6BD131954A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EImeceCore.AdminWeb", "EImeceCore.AdminWeb\EImeceCore.AdminWeb.csproj", "{8524483F-D06E-4504-A867-C6BD131954A5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbInfrastructure", "DbInfrastructure\DbInfrastructure.csproj", "{BE4330B5-F1E5-4DC9-BACB-333006E57F00}"
 EndProject
@@ -43,10 +41,6 @@ Global
 		{0869199A-E877-4988-A74F-EDDE5791CCD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0869199A-E877-4988-A74F-EDDE5791CCD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0869199A-E877-4988-A74F-EDDE5791CCD0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F2CC347A-DFA0-48CE-8826-48AF0D83123F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F2CC347A-DFA0-48CE-8826-48AF0D83123F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F2CC347A-DFA0-48CE-8826-48AF0D83123F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F2CC347A-DFA0-48CE-8826-48AF0D83123F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{42BB225F-CF31-400D-8C6E-F78638E33F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{42BB225F-CF31-400D-8C6E-F78638E33F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42BB225F-CF31-400D-8C6E-F78638E33F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU

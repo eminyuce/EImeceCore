@@ -49,7 +49,7 @@ namespace Infrastructure
             //IProductRepository productRepository = new ProductRepository(db, factory.CreateLogger<ProductRepository>());
             var productService = new ProductService(new ProductRepository(db, factory), factory);
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 2; i++)
             {
                 var item = new Product();
                 item.StoreId = 1;
@@ -78,7 +78,6 @@ namespace Infrastructure
             {
                 System.Console.WriteLine(p.Name);
             }
-
 
             System.Console.WriteLine("Press any key to continue...");
             System.Console.ReadLine();
