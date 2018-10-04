@@ -28,7 +28,7 @@ namespace EImeceCore.Web.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var items = await ProductService.GetAllAsync();
+            var items = await ProductService.GetAllFromCache();
             return View(items);
         }
         [HttpGet]
@@ -53,7 +53,7 @@ namespace EImeceCore.Web.Controllers
         public async Task<IActionResult> Edit(Product product)
         {
             var t = await ProductService.SaveOrUpdateAsync(product, product.Id);
-
+            ProductService.RemoveCache();
             return RedirectToAction(nameof(Index));
         }
 

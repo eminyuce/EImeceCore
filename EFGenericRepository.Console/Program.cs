@@ -3,6 +3,7 @@ using DbInfrastructure.Entities;
 using DbInfrastructure.Repositories;
 using DbInfrastructure.Repositories.IRepositories;
 using DbInfrastructure.Services;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -39,6 +40,7 @@ namespace Infrastructure
 
             var factory = serviceProvider.GetService<ILoggerFactory>();
 
+            var cache = serviceProvider.GetService<IMemoryCache>();
 
             string MySqlDefaultConnection = configuration.GetConnectionString("DefaultConnection");
             string connectionString = configuration.GetConnectionString("DefaultConnection");
@@ -47,7 +49,7 @@ namespace Infrastructure
             IProjectDbContext db = new ProjectDbContext(MySqlDefaultConnection);
 
             //IProductRepository productRepository = new ProductRepository(db, factory.CreateLogger<ProductRepository>());
-            var productService = new ProductService(new ProductRepository(db, factory), factory);
+            var productService = new ProductService(new ProductRepository(db, factory), factory, cache);
 
             for (int i = 0; i < 2; i++)
             {
@@ -57,7 +59,7 @@ namespace Infrastructure
                 item.BrandId = 1;
                 item.RetailerId = 1;
                 item.ProductCode = "";
-                item.Name = "Name:"+Guid.NewGuid().ToString();
+                item.Name = "Admin:"+Guid.NewGuid().ToString();
                 item.Description = Guid.NewGuid().ToString();
                 item.Type = "";
                 item.MainPage = true;

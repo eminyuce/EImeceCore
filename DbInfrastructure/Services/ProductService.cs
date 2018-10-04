@@ -10,24 +10,30 @@ using DbInfrastructure.Entities;
 using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace DbInfrastructure.Services
 {
     public class ProductService : BaseService<Product>, IProductService
     {
         private IProductRepository ProductRepository { get; set; }
-        private ILogger<ProductService> Logger { get; set; }
+        private ILogger<ProductService> _logger { get; set; }
+        private IMemoryCache _cache;
+        private static readonly string _productsKey = "products";
 
-
-        public ProductService(IProductRepository baseRepository,
-            ILoggerFactory loggerFactory) : base(baseRepository)
+        public ProductService(
+            IProductRepository baseRepository,
+            ILoggerFactory loggerFactory,
+            IMemoryCache cache) : base(baseRepository,cache)
         {
+            this._cache = cache;
             ProductRepository = baseRepository;
-            Logger = loggerFactory.CreateLogger<ProductService>();
+            _logger = loggerFactory.CreateLogger<ProductService>();
         }
+
         public async Task<IEnumerable<SelectListItem>> GetProductListItems()
         {
-            Logger.LogInformation("GetTypes called.");
+            _logger.LogInformation("GetTypes called.");
             var products = await ProductRepository.GetAllAsync();
             var items = new List<SelectListItem>
             {
@@ -42,6 +48,21 @@ namespace DbInfrastructure.Services
             return items;
         }
 
-      
+        public async Task<List<Product>> GetAllFromCache()
+        {
+            List<Product> result = await _cache.GetOrCreateAsync(_productsKey, async entry =>
+            {
+                var  items = await GetAllAsync();
+                _logger.LogInformation($"Loaded {items.Count} products");
+                return items;
+            });
+
+            return result;
+        }
+
+        public void RemoveCache()
+        {
+            _cache.Remove(_productsKey);
+        }
     }
 }

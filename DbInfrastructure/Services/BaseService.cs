@@ -5,15 +5,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace DbInfrastructure.Services.IServices
 {
     public abstract class BaseService<T> : IDisposable, IBaseService<T> where T : class, IEntity<int>
     {
         private IBaseRepository<T> baseRepository { get; set; }
+        private IMemoryCache _cache;
 
-        public BaseService(IBaseRepository<T> baseRepository)
+        public BaseService(IBaseRepository<T> baseRepository, IMemoryCache cache)
         {
+            this._cache = cache;
             this.baseRepository = baseRepository;
         }
 
